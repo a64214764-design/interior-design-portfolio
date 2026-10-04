@@ -75,4 +75,137 @@
 
     .about {
       max-width: 800px;
-      margin:
+      margin:auto;
+      text-align: center;
+      font-size: 19px;
+      color: #ded3c1;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #102536;
+      padding: 35px 25px;
+      border-radius: 18px;
+      text-align: center;
+      border: 1px solid rgba(227, 189, 114, 0.25);
+    }
+
+    .card h3 {
+      color: #e3bd72;
+      margin-bottom: 15px;
+      font-size: 23px;
+    }
+
+    .card p {
+      color: #d9cfbf;
+    }
+
+    .contact {
+      text-align: center;
+      background: #0b1d2c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #06111c;
+      color: #a99f90;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>مساحتي... تحكي ذوقي</h1>
+
+      <p>
+        ملف أعمالي في التصميم الداخلي، حيث أدمج الجمال والراحة
+        والعملية لصناعة مساحات تعكس شخصية أصحابها.
+      </p>
+
+      <a href="#projects" class="button">شاهدي أعمالي</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>من أنا؟</h2>
+
+    <div class="about">
+      <p>
+        أنا مصممة داخلية مهتمة بتنسيق المساحات واختيار الألوان
+        والأثاث والإضاءة بطريقة تجمع بين الجمال والراحة والعملية.
+        أحرص على فهم احتياجات العميل وتحويل أفكاره إلى مساحة
+        متناسقة ومميزة.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>أعمالي</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>غرفة معيشة</h3>
+        <p>
+          تصميم هادئ وأنيق يجمع بين الراحة وتناسق الألوان
+          وتوزيع الأثاث بطريقة عملية.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>غرفة نوم</h3>
+        <p>
+          مساحة دافئة ومريحة تعتمد على الألوان الهادئة
+          والإضاءة الناعمة والتفاصيل البسيطة.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>مجلس فاخر</h3>
+        <p>
+          تصميم راقٍ بتفاصيل فخمة وتوزيع مدروس للأثاث
+          والإضاءة لإظهار جمال المكان.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>لنتعاون معًا</h2>
+
+    <p>
+      لديك مساحة وتريد تحويلها إلى مكان جميل ومريح؟
+    </p>
+
+    <br>
+
+    <a class="button" href="mailto:your@email.com">
+      تواصلي معي
+    </a>
+  </section>
+
+  <footer>
+    © 2026 — Interior Design Portfolio
+  </footer>
+
+</body>
+</html>
